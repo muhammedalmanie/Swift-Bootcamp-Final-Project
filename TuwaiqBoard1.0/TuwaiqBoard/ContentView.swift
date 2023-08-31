@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  gfcx
+//  TuwaiqBoard
 //
-//  Created by Muhammed on 8/31/23.
+//  Created by Muhammed on 8/27/23.
 //
 
 import SwiftUI
