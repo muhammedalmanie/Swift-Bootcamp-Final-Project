@@ -20,13 +20,22 @@
 		532A27EB2A9F0A760046422A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 532A27EA2A9F0A760046422A /* FirebaseFirestoreSwift */; };
 		532A27ED2A9F0A760046422A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 532A27EC2A9F0A760046422A /* FirebaseStorage */; };
 		532A27EF2A9F0A760046422A /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 532A27EE2A9F0A760046422A /* FirebaseStorageCombine-Community */; };
-		532A27F12A9F11E40046422A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 532A27F02A9F11E40046422A /* GoogleService-Info.plist */; };
 		532A27F42A9F308A0046422A /* UploadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532A27F32A9F308A0046422A /* UploadImageView.swift */; };
 		535CFCC02AA07B65002AF141 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535CFCBF2AA07B65002AF141 /* HomeView.swift */; };
 		53AFCBD32A9B5B7800A83645 /* TuwaiqBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AFCBD22A9B5B7800A83645 /* TuwaiqBoardApp.swift */; };
 		53AFCBD52A9B5B7800A83645 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AFCBD42A9B5B7800A83645 /* ContentView.swift */; };
 		53AFCBD72A9B5B7E00A83645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AFCBD62A9B5B7E00A83645 /* Assets.xcassets */; };
 		53AFCBDA2A9B5B7E00A83645 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AFCBD92A9B5B7E00A83645 /* Preview Assets.xcassets */; };
+		53B699AA2AA3A738000BB42B /* BootcampDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B699A92AA3A737000BB42B /* BootcampDetailsView.swift */; };
+		53B699AC2AA3A75C000BB42B /* CourseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B699AB2AA3A75C000BB42B /* CourseDetailsView.swift */; };
+		53B699AF2AA47AEC000BB42B /* WeeksOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B699AE2AA47AEC000BB42B /* WeeksOptions.swift */; };
+		53B699B12AA47BED000BB42B /* CurrentBootcampCategoriesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B699B02AA47BED000BB42B /* CurrentBootcampCategoriesViews.swift */; };
+		53B699B32AA47D5C000BB42B /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B699B22AA47D5C000BB42B /* MoreView.swift */; };
+		53B699B52AA47D77000BB42B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B699B42AA47D77000BB42B /* RootView.swift */; };
+		53B699B72AA5B8EB000BB42B /* bootcamps.json in Resources */ = {isa = PBXBuildFile; fileRef = 53B699B62AA5B8EA000BB42B /* bootcamps.json */; };
+		53B699B92AA5C3BC000BB42B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53B699B82AA5C3BC000BB42B /* GoogleService-Info.plist */; };
+		53B699BB2AA5C466000BB42B /* BootcampsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B699BA2AA5C466000BB42B /* BootcampsViewModel.swift */; };
+		53B699BD2AA5CC84000BB42B /* InternalizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B699BC2AA5CC84000BB42B /* InternalizationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +43,6 @@
 		532A27C42A9CA4BA0046422A /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		532A27D92A9F08670046422A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		532A27DB2A9F08970046422A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		532A27F02A9F11E40046422A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		532A27F32A9F308A0046422A /* UploadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageView.swift; sourceTree = "<group>"; };
 		535CFCBF2AA07B65002AF141 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		53AFCBCF2A9B5B7800A83645 /* TuwaiqBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuwaiqBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +50,16 @@
 		53AFCBD42A9B5B7800A83645 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53AFCBD62A9B5B7E00A83645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53AFCBD92A9B5B7E00A83645 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53B699A92AA3A737000BB42B /* BootcampDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampDetailsView.swift; sourceTree = "<group>"; };
+		53B699AB2AA3A75C000BB42B /* CourseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsView.swift; sourceTree = "<group>"; };
+		53B699AE2AA47AEC000BB42B /* WeeksOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeksOptions.swift; sourceTree = "<group>"; };
+		53B699B02AA47BED000BB42B /* CurrentBootcampCategoriesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBootcampCategoriesViews.swift; sourceTree = "<group>"; };
+		53B699B22AA47D5C000BB42B /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		53B699B42AA47D77000BB42B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		53B699B62AA5B8EA000BB42B /* bootcamps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bootcamps.json; sourceTree = "<group>"; };
+		53B699B82AA5C3BC000BB42B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53B699BA2AA5C466000BB42B /* BootcampsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsViewModel.swift; sourceTree = "<group>"; };
+		53B699BC2AA5CC84000BB42B /* InternalizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalizationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +101,14 @@
 		53AFCBD12A9B5B7800A83645 /* TuwaiqBoard */ = {
 			isa = PBXGroup;
 			children = (
-				532A27F02A9F11E40046422A /* GoogleService-Info.plist */,
+				53B699B82AA5C3BC000BB42B /* GoogleService-Info.plist */,
 				53AFCBE02A9B5B9300A83645 /* Models */,
 				53AFCBE12A9B5B9A00A83645 /* ViewModels */,
 				53AFCBE22A9B5BA300A83645 /* Views */,
 				53AFCBD22A9B5B7800A83645 /* TuwaiqBoardApp.swift */,
 				53AFCBD42A9B5B7800A83645 /* ContentView.swift */,
 				53AFCBD62A9B5B7E00A83645 /* Assets.xcassets */,
+				53B699B62AA5B8EA000BB42B /* bootcamps.json */,
 				53AFCBD82A9B5B7E00A83645 /* Preview Content */,
 			);
 			path = TuwaiqBoard;
@@ -115,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				532A27C22A9CA4820046422A /* Authentication.swift */,
+				53B699BA2AA5C466000BB42B /* BootcampsViewModel.swift */,
+				53B699BC2AA5CC84000BB42B /* InternalizationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -122,12 +143,26 @@
 		53AFCBE22A9B5BA300A83645 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				53B699AD2AA47A8F000BB42B /* Current Enrolled Bootcamp Views */,
 				532A27D92A9F08670046422A /* RegisterView.swift */,
 				532A27DB2A9F08970046422A /* LoginView.swift */,
 				532A27F32A9F308A0046422A /* UploadImageView.swift */,
 				535CFCBF2AA07B65002AF141 /* HomeView.swift */,
+				53B699A92AA3A737000BB42B /* BootcampDetailsView.swift */,
+				53B699AB2AA3A75C000BB42B /* CourseDetailsView.swift */,
+				53B699B22AA47D5C000BB42B /* MoreView.swift */,
+				53B699B42AA47D77000BB42B /* RootView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		53B699AD2AA47A8F000BB42B /* Current Enrolled Bootcamp Views */ = {
+			isa = PBXGroup;
+			children = (
+				53B699AE2AA47AEC000BB42B /* WeeksOptions.swift */,
+				53B699B02AA47BED000BB42B /* CurrentBootcampCategoriesViews.swift */,
+			);
+			path = "Current Enrolled Bootcamp Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53AFCBDA2A9B5B7E00A83645 /* Preview Assets.xcassets in Resources */,
+				53B699B92AA5C3BC000BB42B /* GoogleService-Info.plist in Resources */,
 				53AFCBD72A9B5B7E00A83645 /* Assets.xcassets in Resources */,
-				532A27F12A9F11E40046422A /* GoogleService-Info.plist in Resources */,
+				53B699B72AA5B8EB000BB42B /* bootcamps.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,14 +251,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B699AF2AA47AEC000BB42B /* WeeksOptions.swift in Sources */,
 				532A27DC2A9F08970046422A /* LoginView.swift in Sources */,
 				53AFCBD52A9B5B7800A83645 /* ContentView.swift in Sources */,
+				53B699B32AA47D5C000BB42B /* MoreView.swift in Sources */,
+				53B699B52AA47D77000BB42B /* RootView.swift in Sources */,
 				532A27DA2A9F08670046422A /* RegisterView.swift in Sources */,
 				53AFCBD32A9B5B7800A83645 /* TuwaiqBoardApp.swift in Sources */,
 				532A27C52A9CA4BA0046422A /* CourseModel.swift in Sources */,
 				535CFCC02AA07B65002AF141 /* HomeView.swift in Sources */,
+				53B699BD2AA5CC84000BB42B /* InternalizationViewModel.swift in Sources */,
+				53B699AC2AA3A75C000BB42B /* CourseDetailsView.swift in Sources */,
 				532A27C32A9CA4820046422A /* Authentication.swift in Sources */,
+				53B699AA2AA3A738000BB42B /* BootcampDetailsView.swift in Sources */,
 				532A27F42A9F308A0046422A /* UploadImageView.swift in Sources */,
+				53B699BB2AA5C466000BB42B /* BootcampsViewModel.swift in Sources */,
+				53B699B12AA47BED000BB42B /* CurrentBootcampCategoriesViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

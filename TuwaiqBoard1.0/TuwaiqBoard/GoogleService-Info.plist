@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>491702242762-fheof025e6dc68tpvg947k2qupcjcodb.apps.googleusercontent.com</string>
+	<string>92554521030-dsc0embf6b6bfhi849mc30ar0teosg52.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.491702242762-fheof025e6dc68tpvg947k2qupcjcodb</string>
+	<string>com.googleusercontent.apps.92554521030-dsc0embf6b6bfhi849mc30ar0teosg52</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAfLH5oGw8JKIn_EoxZzdheGj9JzUrIJqM</string>
+	<string>AIzaSyC3OyXv2qofcHKQ0vLUSqSf5g9ypW5fp0s</string>
 	<key>GCM_SENDER_ID</key>
-	<string>491702242762</string>
+	<string>92554521030</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>TuwaiqBoard.TuwaiqBoard</string>
 	<key>PROJECT_ID</key>
-	<string>tuwaiqboard-42391</string>
+	<string>hello-world-2901a</string>
 	<key>STORAGE_BUCKET</key>
-	<string>tuwaiqboard-42391.appspot.com</string>
+	<string>hello-world-2901a.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:491702242762:ios:914cbd03c344b3e4e3d333</string>
+	<string>1:92554521030:ios:b88c8976cb88661b232ac7</string>
 </dict>
 </plist>

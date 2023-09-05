@@ -19,7 +19,7 @@ struct TuwaiqBoardApp: App {
     
     var body: some Scene {
         WindowGroup {
-            UploadImageView()
+            ContentView()
         }
     }
 }

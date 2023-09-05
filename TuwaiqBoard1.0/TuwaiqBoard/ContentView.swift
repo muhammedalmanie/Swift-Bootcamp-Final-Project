@@ -1,23 +1,27 @@
-//
-//  ContentView.swift
-//  TuwaiqBoard
-//
-//  Created by Muhammed on 8/27/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = BootcampsViewModel()
+    @State private var bootcamps: [Bootcamp] = []
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Button("Upload to Firestore") {
+                    viewModel.uploadBootcampsToFirestore(bootcamps: bootcamps)
+                    print("Loaded Bootcamps: \(bootcamps)")
+                }
+            }
+            .onAppear {
+                print("View appeared")
+                print("Before loading bootcamps")
+                bootcamps = viewModel.loadBootcampsFromJSON()
+                print("After loading bootcamps")
+            }
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
