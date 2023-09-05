@@ -1,25 +1,48 @@
+
 //
-//  TuwaiqBoardApp.swift
-//  TuwaiqBoard
+//  TwaiqBoardApp.swift
+//  TwaiqBoard
 //
-//  Created by Muhammed on 8/27/23.
+//  Created by سكينه النجار on 03/09/2023.
 //
 
 import SwiftUI
-import FirebaseCore
-
+import Firebase
 @main
-struct TuwaiqBoardApp: App {
-    
-    
-    init () {
+struct TwaiqBoardApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @AppStorage("isOnBoarded") var isOnborded: Bool = false
+    @ObservedObject var viewModel = AppViewModel()
+    init() {
         FirebaseApp.configure()
-        
     }
-    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //RegisterView()
+                        NavigationView {
+                            if isOnborded {
+                                if viewModel.signIn {
+                                    TabBarView()
+                                } else {
+                                    LoginView()
+                                }
+                            } else {
+                                Onboarding()
+                            }
+                        }.onAppear {
+                            viewModel.signIn = viewModel.isSiginIn
+                        }
+                        .environmentObject(viewModel)
+                    }
         }
     }
+
+class AppDelegate: NSObject , UIApplicationDelegate{
+    func application( _application:UIApplication, didFinishLaunchingWithOptions LaunchOptions:
+                      [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
 }
+
+
