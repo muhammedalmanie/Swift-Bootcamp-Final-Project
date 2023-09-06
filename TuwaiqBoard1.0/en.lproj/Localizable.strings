@@ -4,4 +4,47 @@
 
   Created by afnan althobaiti on 20/02/1445 AH.
   
+ 
+ 
 */
+//first Pages
+"search" = "search"
+"Currently Enrolld In:" = "Currently Enrolld In"
+"BootCamps" = "BootCamps"
+ "PastBootCamps" = "PastBootCamps"
+
+
+//Description of the bootcamps
+"Description" = "Description";
+"Duration" = "Duration"
+"Location" = "Location"
+"Goals" = "Goals"
+"Requirement" = "Requirement"
+"Agenda" = "Agenda"
+"Instruction" = "Instruction"
+"Assignment" = "Assignment"
+"Grades" = "Grades"
+
+
+
+//Instruction
+"CoachName" = "Coach Name"
+"AssistenName" = "AsistenName"
+
+
+//login pages:
+"Log In" = "Log In"
+"Email" = "Email"
+"Password" = "Password"
+"" = ""
+"" = ""
+
+
+
+//create new account
+"Name" = "Name"
+"ReEnter Password" = "ReEnter Password"
+
+//Setting
+"Language" = "Language"
+"LogOut" = "LogOut"
