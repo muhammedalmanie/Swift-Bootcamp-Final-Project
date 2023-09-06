@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		384DD6E22AA7AB64001439A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 384DD6E42AA7AB64001439A1 /* Localizable.strings */; };
 		532A27C32A9CA4820046422A /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532A27C22A9CA4820046422A /* Authentication.swift */; };
 		532A27C52A9CA4BA0046422A /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532A27C42A9CA4BA0046422A /* CourseModel.swift */; };
 		532A27DA2A9F08670046422A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532A27D92A9F08670046422A /* RegisterView.swift */; };
@@ -39,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		384DD6E32AA7AB64001439A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		384DD6E62AA7AC47001439A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		532A27C22A9CA4820046422A /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		532A27C42A9CA4BA0046422A /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		532A27D92A9F08670046422A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 		53AFCBC62A9B5B7800A83645 = {
 			isa = PBXGroup;
 			children = (
+				384DD6E42AA7AB64001439A1 /* Localizable.strings */,
 				53AFCBD12A9B5B7800A83645 /* TuwaiqBoard */,
 				53AFCBD02A9B5B7800A83645 /* Products */,
 			);
@@ -218,6 +222,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 53AFCBC62A9B5B7800A83645;
 			packageReferences = (
@@ -237,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384DD6E22AA7AB64001439A1 /* Localizable.strings in Resources */,
 				53AFCBDA2A9B5B7E00A83645 /* Preview Assets.xcassets in Resources */,
 				53B699B92AA5C3BC000BB42B /* GoogleService-Info.plist in Resources */,
 				53AFCBD72A9B5B7E00A83645 /* Assets.xcassets in Resources */,
@@ -271,6 +277,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		384DD6E42AA7AB64001439A1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				384DD6E32AA7AB64001439A1 /* en */,
+				384DD6E62AA7AC47001439A1 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		53AFCBDB2A9B5B7E00A83645 /* Debug */ = {
