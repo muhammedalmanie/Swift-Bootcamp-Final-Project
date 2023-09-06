@@ -4,5 +4,48 @@
 
   Created by afnan althobaiti on 20/02/1445 AH.
   
+ 
+ 
 */
+//first Pages
+"search" = "بحث";
+"Currently Enroll In:" = "المعسكرات المسجل بها";
+"BootCampe" = "المعسكرات";
+"المعسكرات السابقه" = "PastBootCapms"
 
+
+
+//Description of the bootcamps
+"Description" = "الوصف";
+"Duration" = "المده";
+"الموقع" = "Location"
+"Goals" = "الاهداف";
+"المتطلبات" = "Requirment"
+"Agenda" = "الاجنده"
+"التعليمات" = "Instruction"
+"Assignment" = "الواجبات";
+"Grades" = "الدرجات"
+
+
+//Instruction
+"Coach Name" = "اسم المدرب"
+"Asistent Name" = "اسم مساعد المدرب"
+
+
+//login pages:
+"Log In" = "تسجيل الدخول"
+"الايميل" = "Email"
+"Password" = "كلمه المرور"
+
+
+//create new account
+"Name" = "الاسم"
+"Email" = "الايميل"
+"Password" = "كلمه المرور"
+"ReEnterPassword" = "اعاده كتابه كلمه المرور"
+
+
+
+//Setting
+"Language" = "اللغه"
+"LogOut" = "تسجيل الخروج"
