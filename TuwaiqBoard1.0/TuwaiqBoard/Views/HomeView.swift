@@ -15,7 +15,7 @@ struct HomeView: View {
 
     @State var searchedText: String = ""
 
-    // afnan
+    
     
     var body: some View {
         VStack{

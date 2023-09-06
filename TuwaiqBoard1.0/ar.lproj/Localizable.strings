@@ -11,7 +11,7 @@
 "search" = "بحث";
 "Currently Enroll In:" = "المعسكرات المسجل بها";
 "BootCampe" = "المعسكرات";
-"المعسكرات السابقه" = "PastBootCapms"
+;"المعسكرات السابقه" = "PastBootCapms"
 
 
 
@@ -20,32 +20,44 @@
 "Duration" = "المده";
 "الموقع" = "Location"
 "Goals" = "الاهداف";
-"المتطلبات" = "Requirment"
-"Agenda" = "الاجنده"
+;"المتطلبات" = "Requirment"
+"Agenda" = "الاجنده";
 "التعليمات" = "Instruction"
 "Assignment" = "الواجبات";
-"Grades" = "الدرجات"
+"Grades" = "الدرجات";
+
+
+//weeks:
+"week1" = "الاسبوع الاول";
+"week2" = "الاسبوع الثاني";
+"week3" = "الاسبوع الثالث";
+"week4" = "الاسبوع الرابع";
+"week5" = "الاسبوع الخامس";
+"week6" = "الاسبوع السادس";
+"week7" = "الاسبوع السابع";
+"week8" = "الاسبوع الثامن";
+
 
 
 //Instruction
-"Coach Name" = "اسم المدرب"
-"Asistent Name" = "اسم مساعد المدرب"
+"Coach Name" = "اسم المدرب";
+"Asistent Name" = "اسم مساعد المدرب";
 
 
 //login pages:
-"Log In" = "تسجيل الدخول"
-"الايميل" = "Email"
-"Password" = "كلمه المرور"
+"Log In" = "تسجيل الدخول";
+;"الايميل" = "Email"
+"Password" = "كلمه المرور";
 
 
 //create new account
-"Name" = "الاسم"
-"Email" = "الايميل"
-"Password" = "كلمه المرور"
-"ReEnterPassword" = "اعاده كتابه كلمه المرور"
+"Name" = "الاسم";
+"Email" = "الايميل";
+"Password" = "كلمه المرور";
+"ReEnterPassword" = "اعاده كتابه كلمه المرور";
 
 
 
 //Setting
-"Language" = "اللغه"
-"LogOut" = "تسجيل الخروج"
+"Language" = "اللغه";
+"LogOut" = "تسجيل الخروج";

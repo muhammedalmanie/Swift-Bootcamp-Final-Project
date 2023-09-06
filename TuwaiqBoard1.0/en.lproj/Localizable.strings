@@ -8,43 +8,52 @@
  
 */
 //first Pages
-"search" = "search"
-"Currently Enrolld In:" = "Currently Enrolld In"
-"BootCamps" = "BootCamps"
- "PastBootCamps" = "PastBootCamps"
+"search" = "search";
+"Currently Enrolld In:" = "Currently Enrolld In";
+"BootCamps" = "BootCamps";
+ "PastBootCamps" = "PastBootCamps";
 
 
 //Description of the bootcamps
 "Description" = "Description";
-"Duration" = "Duration"
-"Location" = "Location"
-"Goals" = "Goals"
-"Requirement" = "Requirement"
-"Agenda" = "Agenda"
-"Instruction" = "Instruction"
-"Assignment" = "Assignment"
-"Grades" = "Grades"
+"Duration" = "Duration";
+"Location" = "Location";
+"Goals" = "Goals";
+"Requirement" = "Requirement";
+"Agenda" = "Agenda";
+"Instruction" = "Instruction";
+"Assignment" = "Assignment";
+"Grades" = "Grades";
 
+
+//weeks:
+"week1" = "week1";
+"week2" = "week2";
+"week3" = "week3";
+"week4" = "week4";
+"week5" = "week5";
+"week6" = "week6";
+"week7" = "week7";
+"week8" = "week8";
 
 
 //Instruction
-"CoachName" = "Coach Name"
-"AssistenName" = "AsistenName"
+"CoachName" = "Coach Name";
+"AssistenName" = "AsistenName";
 
 
 //login pages:
-"Log In" = "Log In"
-"Email" = "Email"
-"Password" = "Password"
-"" = ""
-"" = ""
+"Log In" = "Log In";
+"Email" = "Email";
+"Password" = "Password";
+
 
 
 
 //create new account
-"Name" = "Name"
-"ReEnter Password" = "ReEnter Password"
+"Name" = "Name";
+"ReEnter Password" = "ReEnter Password";
 
 //Setting
-"Language" = "Language"
-"LogOut" = "LogOut"
+"Language" = "Language";
+"LogOut" = "LogOut";
